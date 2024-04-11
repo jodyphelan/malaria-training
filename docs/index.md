@@ -605,3 +605,9 @@ ggplot(df_collate_moi_loc, aes(x = factor(moi), y = median_target_depth)) +
 
 In this practical, we have used malaria-profiler to profile _P. falciparum_ isolates from a dataset of WGS data. We have analyzed the drug resistance mutations and geographic origins of the isolates and compared the results to the known origins of the samples. We have also used R to analyze the results and identify drug resistance mutations in the isolates. We have also merged in the multiplicity of infection data and analyzed the multiplicity of infection values by region. We have seen that the multiplicity of infection values can vary between regions and that there are differences in the median target depth values between the multiplicity of infection values.
 
+
+
+```
+export RSTUDIO_WHICH_R=/opt/conda/envs/malaria-profiler/bin/R
+```
+
